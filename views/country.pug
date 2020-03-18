@@ -1,0 +1,5 @@
+- var values = [{ value: '', text: 'Please select a country' },{ value: 'US', text: 'United States' },{ value: 'AU', text: 'Australia' },];
+
+select
+  each val in values
+    option(value=val.value) #{val.text}
